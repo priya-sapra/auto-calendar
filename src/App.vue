@@ -11,18 +11,20 @@
     <!-- <HelloWorld/> -->
     <!-- <TestVueComponent/> -->
     <Welcome/>
+    <InputFields/>
   </div>
 </template>
 
 <script>
 
-
 import Welcome from "./components/Welcome.vue";
+import InputFields from "./components/InputFields.vue";
 
 export default {
   name: "app",
   components: {
-    Welcome
+    Welcome,
+    InputFields
   }
 };
 </script>
