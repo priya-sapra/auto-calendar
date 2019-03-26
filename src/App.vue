@@ -10,21 +10,21 @@
   <div id="app" class="container">
     <!-- <HelloWorld/> -->
     <!-- <TestVueComponent/> -->
-    <Welcome/>
-    <InputFields/>
+    <Welcome />
+    <!-- <InputFields /> -->
+    <UserForm />
   </div>
 </template>
 
 <script>
-
 import Welcome from "./components/Welcome.vue";
-import InputFields from "./components/InputFields.vue";
+import UserForm from "./components/UserForm.vue";
 
 export default {
   name: "app",
   components: {
     Welcome,
-    InputFields
+    UserForm,
   }
 };
 </script>
