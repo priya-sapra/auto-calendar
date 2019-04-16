@@ -1,15 +1,5 @@
-<!-- <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome" />
-  </div>
-</template>
--->
-
 <template>
   <div id="app" class="container">
-    <!-- <HelloWorld/> -->
-    <!-- <TestVueComponent/> -->
     <Welcome />
     <!-- <InputFields /> -->
     <UserForm />
@@ -19,12 +9,13 @@
 <script>
 import Welcome from "./components/Welcome.vue";
 import UserForm from "./components/UserForm.vue";
+//import InputFields from "./components/InputFields.vue";
 
 export default {
   name: "app",
   components: {
     Welcome,
-    UserForm,
+    UserForm
   }
 };
 </script>
