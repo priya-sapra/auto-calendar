@@ -1,0 +1,10 @@
+Vue Tutorial
+------------
+
+Vue is a Javascript framework that allows you to separate all the parts of your web app into components, views, and routes. In Vue components, which is what I mainly use for my project, you can write all the HTML, Javascript, and CSS in one page to create a dynamic component for your web app. It is easy to reuse these components by declairng instances of them in whatever pages where you want that component to exist. Additionally, the [Vue documentation](https://vuejs.org/v2/guide/) is very clear, so that is really helpful when trying to implement different features.
+
+One example of a component is something like a ToDoList. You can code the ToDo list in a component and then create instances of that ToDo list in other places. [This code sandbox](https://codesandbox.io/s/o29j95wx9) that I played around with shows you how to make a simple ToDo list. This tutorial taught me how to implement methods for Vue components using Javascript as well as how to do [Event Handling](https://vuejs.org/v2/guide/events.html) in Vue.
+
+Another helpful tool was from the Fall 2018 Semester - a [Vue workshop](https://codesandbox.io/s/github/aeksco/VueJSWorkshop) that one of the RCOS Coordinators held. I saved the link so I could play around with it. He included many dummy components, each one that does something a little different to practice with. It goes over basic Vue components and features like v-on directive to handle event listeners (for example, you can use v-on:click to indicaate what should happen when a button is clicked) and the v-for directive to allow you to loop over arrays and collections. It also goes over v-bind directive that dynamically changes attributes in the web app.
+
+I spent a couple weeks just messing around with these workshops and making dummy vue componenents in my own web app to learn about different ways to incorporate elements that I wanted to include in the final product.
