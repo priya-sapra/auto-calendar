@@ -19,3 +19,9 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+# config file
+config.js
+
+# Extra test components
+HelloWorld.vue
